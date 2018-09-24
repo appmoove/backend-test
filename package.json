@@ -1,0 +1,28 @@
+{
+  "name": "backend-test",
+  "version": "1.0.0",
+  "description": "Projeto de teste para desenvolvedores back-end",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint index.js"
+  },
+  "author": "Leonardo Baiser & Edvaldo Szymonek",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.17.1",
+    "bluebird": "3.4.7",
+    "body-parser": "1.13.2",
+    "express": "4.13.1",
+    "knex": "0.15.2",
+    "mysql2": "^1.6.1"
+  },
+  "devDependencies": {
+    "eslint": "4.15.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-mocha": "4.11.0",
+    "nodemon": "1.12.1"
+  }
+}
